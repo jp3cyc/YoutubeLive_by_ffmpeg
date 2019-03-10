@@ -13,14 +13,14 @@ Youtube live streaming from raspi-camera and uvc cam (webcam) by ffmpeg, raspi 3
 # 使い方
 ## 初期設定
 gitからCloneする
-'''
+```
 git clone https://github.com/jp3cyc/YoutubeLive_by_ffmpeg.git
 cd YoutubeLive_by_ffmpeg
-'''
+```
 .shファイルに実行権限を追加
-'''
+```
 chmod +x picam-youtubelive.sh webcam-youtuelive.sh
-'''
+```
 
 ## 配信
 Raspberry Piのターミナル上で次のコマンドを実行
@@ -30,9 +30,9 @@ Raspberry Piのターミナル上で次のコマンドを実行
 ./picam-youtubestream.sh
 '''
 ウェブカメラ配信の実行
-'''
+```
 ./webcam-youtubestream.sh
-'''
+```
 
 同時実行するときは別端末から実行すると便利
 SSHが途切れると配信は停止するため，悪環境下ではtmuxを利用するとよい
